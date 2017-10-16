@@ -54,7 +54,14 @@
     <Reference Include="Mono.Android" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MiscClasses\DrawColors.cs" />
+    <Compile Include="MiscClasses\Drawer.cs" />
     <Compile Include="MainActivity.cs" />
+    <Compile Include="MiscClasses\DelegatedActions.cs" />
+    <Compile Include="MiscClasses\MD5HashGenerator.cs" />
+    <Compile Include="MiscClasses\MyButton.cs" />
+    <Compile Include="NetworkClasses\Node.cs" />
+    <Compile Include="NetworkClasses\Weight.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TicTacToeView.cs" />
